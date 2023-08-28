@@ -1,0 +1,367 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.logo-head{
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700px;
+    display: flex;
+    
+    text-align: center;
+    justify-content: center;
+}
+a{
+    font-size: 16px;
+    text-decoration: none;
+}
+.nav-menu{
+    display: flex;
+    justify-content:space-between;
+   
+}
+.nav-wrapper{
+    position: absolute;
+    top: 0;
+}
+.menu-options{
+   padding: 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.menu-container{
+    display: flex;
+}
+.menu-options ul{
+    display: flex;
+}
+.menu-options ul li{
+    
+    list-style: none;
+ 
+
+}
+.menu-options ul li a{
+    text-decoration: none;
+    color: black;
+    padding:10px 20px;
+
+}
+
+.menu-options ul li a:hover{
+   border-bottom: 2px solid pink;
+}
+
+.theme-container{
+    padding: 0px 100px;
+}
+
+.banner-img{
+    width: 100%;
+    height: 650px;
+}
+.banner-container{
+    padding: 150px 0px;
+}
+
+.carousel.slide .carousel-item{
+    position: relative;
+ 
+}
+.carousel.slide .carousel-item .carousel-caption{
+  
+    position:absolute;
+    top: 10px;
+    height: 200px;
+}
+.carousel.slide .carousel-item .carousel-caption button{
+    background-color: rgb(255, 170, 221);
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+}
+.carousel.slide .carousel-item .carousel-caption button:hover a{
+    color: rgb(225, 45, 45);
+}
+.carousel.slide .carousel-item .carousel-caption button a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.banner-des{
+    font-size: 24px;
+    font-family: 'Dancing Script', cursive;
+    font-weight:800px;
+    color: black;
+    
+}
+
+
+.products-list{
+    border: 1px solid palevioletred;
+    position: relative;
+    width: 30%;
+    min-height: 400px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.products-list img{
+    width: 250px ;
+    height: 300px;
+    position: absolute;
+    top: 10px;
+}
+.product-display-head{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Dancing Script', cursive;
+    padding: 50px 0px;
+}
+.products-container{
+    display: flex;
+    padding: 20px 150px;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 50px;
+    
+}
+.product-name{
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    color: rgb(248, 169, 195);
+}
+.product-price{
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+    color: rgb(198, 52, 101);
+    font-weight: 800px;
+    background-color: rgb(250, 208, 215);
+    padding: 5px 10px;
+    border-radius: 0px 0px 15px 0px;
+}
+.shop-btn a{
+    text-decoration: none;
+    position: absolute;
+    bottom: -20px;
+    left:35%;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(198, 52, 101);
+    color: white;
+    border:1px solid transparent;
+   
+}
+.shop-btn:hover{
+   border:1px solid rgb(198, 52, 101);
+   background-color: white;
+   color: rgb(198, 52, 101);
+}
+.product-img{
+    border: 1px solid  ;
+    width: 30%;
+    height: 550px;
+    position: absolute;
+    top: 160px;
+    border:1px solid rgb(198, 52, 101);
+    padding: 50px;
+}
+.product-img:hover{
+    resize: horizontal;
+}
+.product-img img{
+    width: 100%;
+    height: 100%;
+}
+.product-purchase-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 100px 200px;
+    min-height: 100vh;
+   display: flex;
+   flex-wrap: wrap;
+}
+.product-des{
+    margin-top: 60px;
+    position: absolute;
+    right: 20px;
+    min-height: 600px;
+    width: 40%;
+
+}
+.product-des .purchase-product-des{
+    color: rgb(196, 85, 103);;
+}
+
+
+.product-des span{
+    display: block;
+    padding: 20px 0px;
+    color:pink;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+.quantity-counter span{
+    
+    display: inline;
+    margin: 0px 10px;
+    font-size: 20px;
+    border: 1px solid rgb(172, 12, 65);
+    padding: 10px 20px;
+
+
+}
+.quantity-counter span:hover{
+    cursor: pointer;
+}
+
+.cart-btn{
+    position: absolute;
+    bottom: 50px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(198, 52, 101);
+    color: white;
+    border:1px solid transparent;
+   
+}
+.cart-btn:hover{
+   border:1px solid rgb(198, 52, 101);
+   background-color: white;
+   color: rgb(198, 52, 101);
+}
+.badge-position{
+    position: relative;
+}
+.cart-badge{
+ 
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    top: -11px;
+    display: flex;
+   align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    padding: 5px;
+ 
+}
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+}
+.signup-form{
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 500px;
+    border: 1px solid pink;
+    
+}
+.signup-head{
+    color: rgb(198, 52, 101);
+    font-family: 'Dancing Script', cursive;
+}
+.signup-form input{
+    width: 300px;
+    height: 50px;
+    margin: 10px 0px;
+    border: 1px solid pink;
+    padding: 5px;
+    outline:rgb(198, 52, 101) ;
+}
+.signup-btn{
+    border:2px solid rgb(198, 52, 101);
+    background-color: white;
+    padding: 10px 20px;
+    color:rgb(198, 52, 101) ;
+    margin: 20px 0px 0px 80px;
+    font-family: 'Dancing Script', cursive;
+}
+.signup-btn:hover{
+    background-color: rgb(198, 52, 101);
+    color: white;
+}
+.log-signup-btn {
+    border:2px solid rgb(198, 52, 101);
+    background-color: white;
+    padding: 10px 20px;
+  
+    font-family: 'Dancing Script', cursive;
+    margin-left: 80px;
+}
+.log-signup-btn a{
+    text-decoration: none;
+    color:rgb(198, 52, 101) ;
+}
+
+.log-signup-btn:hover{
+    background-color: rgb(198, 52, 101);
+}
+.log-signup-btn:hover a{
+    color: white;
+}
+.acc-msg{
+    color: palevioletred;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    margin: 20px 0px;
+}
+.offcanvas-container{
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+.offcanvas-container .offcanvas-product-img{
+    width: 200px;
+    height: 250px;
+    border: 1px solid black;
+    margin: 20px;
+    
+}
+.offcanvas-container .offcanvas-product-img img{
+    width: 100%;
+    height: 100%;
+}
+.offcanvas-container span{
+    color: palevioletred;
+}
+.offcanvas-product-des ul li{
+    list-style: none;
+}
+.offcanvas-product-des button{
+    margin: 10px 5px;
+    padding: 5px 10px ;
+}
